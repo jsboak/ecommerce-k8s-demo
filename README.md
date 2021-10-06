@@ -1,10 +1,4 @@
-<p align="center">
-<img src="src/frontend/static/icons/Hipster_HeroLogoCyan.svg" width="300" alt="Online Boutique" />
-</p>
-
-
-![Continuous Integration](https://github.com/GoogleCloudPlatform/microservices-demo/workflows/Continuous%20Integration%20-%20Master/Release/badge.svg)
-
+This is a modified version of Google's demo app (Online Boutique). Built into the Payment service is a "dependency" on a "third-party" API, and when that API is no longer reachable, then the service fails. This prevents users from "checking out" their cart of the e-Commerce app.  Typically, a mechanism as simple as API Gateway is used for the external (third party) API. 
 
 **Online Boutique** is a cloud-native microservices demo application.
 Online Boutique consists of a 10-tier microservices application. The application is a
